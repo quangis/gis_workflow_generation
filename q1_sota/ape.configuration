@@ -3,7 +3,7 @@
   "solution_graphs_folder": "./q1_sota/figs",
   "tool_annotations_path": "./ToolDescription_ct_fl.json",
   "ontology_path": "./GISTaxonomy_fl.rdf",
-  "constraints_path": "./constraints.json",
+  "constraints_path": "./q1_sota/constraints.json",
   "toolsTaxonomyRoot": "Tool",
   "dataTaxonomyRoot": "DType",
   "dataSubTaxonomyRoot": "DType",
@@ -18,12 +18,12 @@
       "DType": "PointA"
     },
     {
-      "DType": "TessellationA"
+      "DType": "VectorRegionA"
     }
   ],
   "outputs": [
     {
-      "DType": "TessellationA"
+      "DType": "VectorRegionA"
     }
   ],
   "debug_mode": "true",

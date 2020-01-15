@@ -1,9 +1,9 @@
 {
-  "solutions_path": "./q1_full/sat_solutions.txt",
-  "solution_graphs_folder": "./q1_full/figs",
+  "solutions_path": "./q4_full/sat_solutions.txt",
+  "solution_graphs_folder": "./q4_full/figs",
   "tool_annotations_path": "./ToolDescription_ct.json",
   "ontology_path": "./GISTaxonomy.rdf",
-  "constraints_path": "./q1_full/constraints.json",
+  "constraints_path": "./q4_full/constraints.json",
   "toolsTaxonomyRoot": "Tool",
   "dataTaxonomyRoot": "DType",
   "dataSubTaxonomyRoot": "DType",
@@ -15,7 +15,7 @@
   "number_of_generated_graphs": "20",
   "inputs": [
     {
-      "DType": "NominalAObjectPoint"
+      "DType": "Contour"
     },
     {
       "DType": "LatticeVectorA"
@@ -23,7 +23,7 @@
   ],
   "outputs": [
     {
-      "DType": "CountALatticeVectorAERA"
+      "DType": "LatticeOrdinalAVectorA"
     }
   ],
   "debug_mode": "true",
