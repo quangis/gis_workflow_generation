@@ -2,7 +2,7 @@
 
 # Run APE for all questions, for both ontologies.
 
-ape="APE-0.8.jar"
+ape="APE-0.9.jar"
 
 for q in $(seq 1 5); do
     for o in sota full; do

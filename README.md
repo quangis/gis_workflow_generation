@@ -1,6 +1,6 @@
 # GIS workflow generation
 
-1. Paste `APE-0.8.jar` in this directory.
+1. Paste `APE-0.9.jar` in this directory.
 2. Run `run.sh`.
 3. It will create workflows (with figures) in separate folders for all questions.
 
