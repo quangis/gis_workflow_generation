@@ -1,9 +1,9 @@
 {
-  "solutions_path": "./q3_sota/sat_solutions.txt",
-  "solution_graphs_folder": "./q3_sota/figs",
+  "solutions_path": "./q3_sota_constrained/sat_solutions.txt",
+  "solution_graphs_folder": "./q3_sota_constrained/figs",
   "tool_annotations_path": "./ToolDescription_ct_fl.json",
   "ontology_path": "./GISTaxonomy_fl.rdf",
-  "constraints_path": "./q3_sota/constraints.json",
+  "constraints_path": "./q3_sota_constrained/constraints.json",
   "toolsTaxonomyRoot": "Tool",
   "dataTaxonomyRoot": "DType",
   "dataSubTaxonomyRoot": "DType",
