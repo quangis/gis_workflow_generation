@@ -7,5 +7,10 @@ for q in $(seq 1 5); do
         dir="./q${q}_${o}"
         rm -f ${dir}/figs/*
         rm -f ${dir}/sat_solutions.txt
+        if [ -d "./q${q}_${o}_constrained" ]; then
+            dir="${dir}_constrained"
+            rm -f ${dir}/figs/*
+            rm -f ${dir}/sat_solutions.txt
+        fi
     done
 done
