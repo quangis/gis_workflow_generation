@@ -1,0 +1,10 @@
+{
+  "constraints": [
+    {
+      "constraintid": "use_m",
+      "parameters": [
+        "https://desktop.arcgis.com/en/arcmap/latest/tools/spatial-analyst-toolbox/zonal-statistics-as-table.htm"
+      ]
+    }
+  ]
+}

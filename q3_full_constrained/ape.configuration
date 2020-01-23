@@ -1,0 +1,32 @@
+{
+  "solutions_path": "./q3_full/sat_solutions.txt",
+  "solution_graphs_folder": "./q3_full/figs",
+  "tool_annotations_path": "./ToolDescription_ct.json",
+  "ontology_path": "./GISTaxonomy.rdf",
+  "constraints_path": "./q3_full/constraints.json",
+  "toolsTaxonomyRoot": "Tool",
+  "dataTaxonomyRoot": "DType",
+  "dataSubTaxonomyRoot": "DType",
+  "shared_memory": "true",
+  "solution_min_length": "1",
+  "solution_max_length": "8",
+  "max_solutions": "20",
+  "number_of_execution_scripts": "0",
+  "number_of_generated_graphs": "20",
+  "inputs": [
+    {
+      "DType": "CoverageNominalA"
+    },
+    {
+      "DType": "LatticeVectorA"
+    }
+  ],
+  "outputs": [
+    {
+      "DType": "LatticeRatioAVectorA"
+    }
+  ],
+  "debug_mode": "true",
+  "use_workflow_input": "all",
+  "use_all_generated_data": "one"
+}
