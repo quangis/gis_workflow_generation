@@ -3,275 +3,17 @@
     {
       "inputs": [
         {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "SelectFeaturesContourToExistenceLine",
-      "operation": "SelectFeaturesContourToExistenceLine",
-      "outputs": [
-        {
-          "DType": [
-            "LineA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "LineA"
+          "DType": "RasterA"
         },
         {
-          "DType": "LineA"
+          "DType": "RasterA"
         },
         {
           "DType": "RasterA"
         }
       ],
-      "name": "LeastCostPathLineLine",
-      "operation": "LeastCostPathLineLine",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "SelectFeaturesCoverageToExistenceLine",
-      "operation": "SelectFeaturesCoverageToExistenceLine",
-      "outputs": [
-        {
-          "DType": [
-            "LineA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "PointA"
-        }
-      ],
-      "name": "KernelDensityPoint",
-      "operation": "KernelDensityPoint",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "LineA"
-        }
-      ],
-      "name": "MergeExistenceLines",
-      "operation": "MergeExistenceLines",
-      "outputs": [
-        {
-          "DType": [
-            "LineA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "LineA"
-        }
-      ],
-      "name": "KernelDensityLine",
-      "operation": "KernelDensityLine",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "RasterA"
-        },
-        {
-          "DType": "PointA"
-        }
-      ],
-      "name": "ExtractFieldRasterValuesToPoints",
-      "operation": "ExtractFieldRasterValuesToPoints",
-      "outputs": [
-        {
-          "DType": [
-            "PointA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "ArealInterpolationAverage",
-      "operation": "ArealInterpolationAverage",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "ZonalStatisticsCount",
-      "operation": "ZonalStatisticsCount",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "PointA"
-        }
-      ],
-      "name": "ThiessenPolygonsRegion",
-      "operation": "ThiessenPolygonsRegion",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "PointA"
-        },
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "SpatialJoinCountPoint",
-      "operation": "SpatialJoinCountPoint",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "KernelDensityRegion",
-      "operation": "KernelDensityRegion",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "PointA"
-        }
-      ],
-      "name": "IDW",
-      "operation": "IDW",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "ArealInterpolationRate",
-      "operation": "ArealInterpolationRate",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "SpatialJoinCountRegion",
-      "operation": "SpatialJoinCountRegion",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "VectorCoverageToFieldRaster",
-      "operation": "VectorCoverageToFieldRaster",
+      "name": "LeastCostPathRasterRaster",
+      "operation": "LeastCostPathRasterRaster",
       "outputs": [
         {
           "DType": [
@@ -302,147 +44,65 @@
     {
       "inputs": [
         {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "SpatialJoinSumRegion",
-      "operation": "SpatialJoinSumRegion",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "ExistenceRasterToPoint",
-      "operation": "ExistenceRasterToPoint",
-      "outputs": [
-        {
-          "DType": [
-            "PointA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "PointA"
-        },
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "LeastCostPathRegionPoint",
-      "operation": "LeastCostPathRegionPoint",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "SelectFeaturesContourToExistencePoint",
-      "operation": "SelectFeaturesContourToExistencePoint",
-      "outputs": [
-        {
-          "DType": [
-            "PointA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "ZonalStatisticsMean",
-      "operation": "ZonalStatisticsMean",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "SelectFeaturesContourToExistenceRegion",
-      "operation": "SelectFeaturesContourToExistenceRegion",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "RasterA"
-        },
-        {
-          "DType": "PointA"
-        },
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "LeastCostPathRasterPoint",
-      "operation": "LeastCostPathRasterPoint",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        },
-        {
           "DType": "LineA"
         },
         {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SpatialJoinMeanLine",
+      "operation": "SpatialJoinMeanLine",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "KernelDensityRegion",
+      "operation": "KernelDensityRegion",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        },
+        {
           "DType": "RasterA"
         }
       ],
-      "name": "LeastCostPathRegionLine",
-      "operation": "LeastCostPathRegionLine",
+      "name": "ZonalStatisticsCount",
+      "operation": "ZonalStatisticsCount",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "PointA"
+        }
+      ],
+      "name": "KernelDensityPoint",
+      "operation": "KernelDensityPoint",
       "outputs": [
         {
           "DType": [
@@ -473,8 +133,8 @@
           "DType": "RasterA"
         }
       ],
-      "name": "RasterToContour",
-      "operation": "RasterToContour",
+      "name": "RasterToCoverage",
+      "operation": "RasterToCoverage",
       "outputs": [
         {
           "DType": [
@@ -486,17 +146,11 @@
     {
       "inputs": [
         {
-          "DType": "LineA"
-        },
-        {
           "DType": "PointA"
-        },
-        {
-          "DType": "RasterA"
         }
       ],
-      "name": "LeastCostPathLinePoint",
-      "operation": "LeastCostPathLinePoint",
+      "name": "IDW",
+      "operation": "IDW",
       "outputs": [
         {
           "DType": [
@@ -527,18 +181,21 @@
     {
       "inputs": [
         {
-          "DType": "LineA"
+          "DType": "RasterA"
         },
         {
           "DType": "VectorRegionA"
+        },
+        {
+          "DType": "RasterA"
         }
       ],
-      "name": "SpatialJoinSumLine",
-      "operation": "SpatialJoinSumLine",
+      "name": "LeastCostPathRasterRegion",
+      "operation": "LeastCostPathRasterRegion",
       "outputs": [
         {
           "DType": [
-            "VectorRegionA"
+            "RasterA"
           ]
         }
       ]
@@ -562,11 +219,36 @@
     {
       "inputs": [
         {
+          "DType": "VectorRegionA"
+        },
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SpatialJoinSumRegion",
+      "operation": "SpatialJoinSumRegion",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "LineA"
+        },
+        {
+          "DType": "LineA"
+        },
+        {
           "DType": "RasterA"
         }
       ],
-      "name": "ReclassifyFieldRasterToBoolean",
-      "operation": "ReclassifyFieldRasterToBoolean",
+      "name": "LeastCostPathLineLine",
+      "operation": "LeastCostPathLineLine",
       "outputs": [
         {
           "DType": [
@@ -578,15 +260,15 @@
     {
       "inputs": [
         {
-          "DType": "VectorRegionA"
+          "DType": "PointA"
         }
       ],
-      "name": "SelectFeaturesCoverageToExistencePoint",
-      "operation": "SelectFeaturesCoverageToExistencePoint",
+      "name": "ThiessenPolygonsRegion",
+      "operation": "ThiessenPolygonsRegion",
       "outputs": [
         {
           "DType": [
-            "PointA"
+            "VectorRegionA"
           ]
         }
       ]
@@ -594,15 +276,116 @@
     {
       "inputs": [
         {
+          "DType": "VectorRegionA"
+        },
+        {
           "DType": "RasterA"
         }
       ],
-      "name": "RasterToCoverage",
-      "operation": "RasterToCoverage",
+      "name": "ZonalStatisticsMedian",
+      "operation": "ZonalStatisticsMedian",
       "outputs": [
         {
           "DType": [
             "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        },
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "ArealInterpolationRate",
+      "operation": "ArealInterpolationRate",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "LineA"
+        },
+        {
+          "DType": "RasterA"
+        },
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "LeastCostPathLineRaster",
+      "operation": "LeastCostPathLineRaster",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "LineA"
+        },
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SpatialJoinSumLine",
+      "operation": "SpatialJoinSumLine",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "LineA"
+        }
+      ],
+      "name": "ObjectLineToExistenceRaster",
+      "operation": "ObjectLineToExistenceRaster",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "PointA"
+        },
+        {
+          "DType": "PointA"
+        },
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "LeastCostPathPointPoint",
+      "operation": "LeastCostPathPointPoint",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
           ]
         }
       ]
@@ -635,8 +418,198 @@
           "DType": "RasterA"
         }
       ],
-      "name": "EuclideanDistanceRaster",
-      "operation": "EuclideanDistanceRaster",
+      "name": "ExistenceRasterToLine",
+      "operation": "ExistenceRasterToLine",
+      "outputs": [
+        {
+          "DType": [
+            "LineA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "RasterA"
+        },
+        {
+          "DType": "PointA"
+        },
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "LeastCostPathRasterPoint",
+      "operation": "LeastCostPathRasterPoint",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "PointA"
+        },
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SpatialJoinMeanPoint",
+      "operation": "SpatialJoinMeanPoint",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SelectFeaturesCoverageToExistencePoint",
+      "operation": "SelectFeaturesCoverageToExistencePoint",
+      "outputs": [
+        {
+          "DType": [
+            "PointA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "EuclideanDistanceRegion",
+      "operation": "EuclideanDistanceRegion",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        },
+        {
+          "DType": "PointA"
+        },
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "LeastCostPathRegionPoint",
+      "operation": "LeastCostPathRegionPoint",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "LineA"
+        },
+        {
+          "DType": "VectorRegionA"
+        },
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "LeastCostPathLineRegion",
+      "operation": "LeastCostPathLineRegion",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        },
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "ZonalStatisticsMean",
+      "operation": "ZonalStatisticsMean",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "PointA"
+        },
+        {
+          "DType": "RasterA"
+        },
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "LeastCostPathPointRaster",
+      "operation": "LeastCostPathPointRaster",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "ExistenceRasterToPoint",
+      "operation": "ExistenceRasterToPoint",
+      "outputs": [
+        {
+          "DType": [
+            "PointA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "PointA"
+        }
+      ],
+      "name": "EuclideanDistancePoint",
+      "operation": "EuclideanDistancePoint",
       "outputs": [
         {
           "DType": [
@@ -664,11 +637,116 @@
     {
       "inputs": [
         {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SelectFeaturesCoverageToExistenceLine",
+      "operation": "SelectFeaturesCoverageToExistenceLine",
+      "outputs": [
+        {
+          "DType": [
+            "LineA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        },
+        {
+          "DType": "LineA"
+        },
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "LeastCostPathRegionLine",
+      "operation": "LeastCostPathRegionLine",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "LineA"
+        }
+      ],
+      "name": "EuclideanDistanceLine",
+      "operation": "EuclideanDistanceLine",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
           "DType": "PointA"
         }
       ],
-      "name": "ThiessenPolygonsRaster",
-      "operation": "ThiessenPolygonsRaster",
+      "name": "Kriging",
+      "operation": "Kriging",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "FocalStatisticsVariety",
+      "operation": "FocalStatisticsVariety",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        },
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "ArealInterpolationAverage",
+      "operation": "ArealInterpolationAverage",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "LineA"
+        }
+      ],
+      "name": "KernelDensityLine",
+      "operation": "KernelDensityLine",
       "outputs": [
         {
           "DType": [
@@ -683,8 +761,8 @@
           "DType": "VectorRegionA"
         }
       ],
-      "name": "MergeExistenceRegions",
-      "operation": "MergeExistenceRegions",
+      "name": "SelectFeaturesContourToExistenceRegion",
+      "operation": "SelectFeaturesContourToExistenceRegion",
       "outputs": [
         {
           "DType": [
@@ -718,21 +796,50 @@
     {
       "inputs": [
         {
-          "DType": "RasterA"
-        },
-        {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "RasterA"
+          "DType": "LineA"
         }
       ],
-      "name": "LeastCostPathRasterRegion",
-      "operation": "LeastCostPathRasterRegion",
+      "name": "MergeExistenceLines",
+      "operation": "MergeExistenceLines",
+      "outputs": [
+        {
+          "DType": [
+            "LineA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "PointA"
+        }
+      ],
+      "name": "ThiessenPolygonsRaster",
+      "operation": "ThiessenPolygonsRaster",
       "outputs": [
         {
           "DType": [
             "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        },
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SpatialJoinMeanRegion",
+      "operation": "SpatialJoinMeanRegion",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
           ]
         }
       ]
@@ -743,14 +850,122 @@
           "DType": "PointA"
         },
         {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SpatialJoinCountPoint",
+      "operation": "SpatialJoinCountPoint",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "EuclideanDistanceRaster",
+      "operation": "EuclideanDistanceRaster",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "RasterA"
+        },
+        {
+          "DType": "PointA"
+        }
+      ],
+      "name": "ExtractFieldRasterValuesToPoints",
+      "operation": "ExtractFieldRasterValuesToPoints",
+      "outputs": [
+        {
+          "DType": [
+            "PointA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "FocalStatisticsMean",
+      "operation": "FocalStatisticsMean",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        },
+        {
+          "DType": "VectorRegionA"
+        },
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "LeastCostPathRegionRegion",
+      "operation": "LeastCostPathRegionRegion",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SelectFeaturesContourToExistencePoint",
+      "operation": "SelectFeaturesContourToExistencePoint",
+      "outputs": [
+        {
+          "DType": [
+            "PointA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        },
+        {
           "DType": "RasterA"
         },
         {
           "DType": "RasterA"
         }
       ],
-      "name": "LeastCostPathPointRaster",
-      "operation": "LeastCostPathPointRaster",
+      "name": "LeastCostPathRegionRaster",
+      "operation": "LeastCostPathRegionRaster",
       "outputs": [
         {
           "DType": [
@@ -765,8 +980,84 @@
           "DType": "RasterA"
         }
       ],
-      "name": "ExistenceRasterToLine",
-      "operation": "ExistenceRasterToLine",
+      "name": "ReclassifyFieldRasterToBoolean",
+      "operation": "ReclassifyFieldRasterToBoolean",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        },
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SpatialJoinCountRegion",
+      "operation": "SpatialJoinCountRegion",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "PointA"
+        },
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SpatialJoinSumPoint",
+      "operation": "SpatialJoinSumPoint",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "LineA"
+        },
+        {
+          "DType": "PointA"
+        },
+        {
+          "DType": "RasterA"
+        }
+      ],
+      "name": "LeastCostPathLinePoint",
+      "operation": "LeastCostPathLinePoint",
+      "outputs": [
+        {
+          "DType": [
+            "RasterA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "SelectFeaturesContourToExistenceLine",
+      "operation": "SelectFeaturesContourToExistenceLine",
       "outputs": [
         {
           "DType": [
@@ -779,16 +1070,10 @@
       "inputs": [
         {
           "DType": "RasterA"
-        },
-        {
-          "DType": "RasterA"
-        },
-        {
-          "DType": "RasterA"
         }
       ],
-      "name": "LeastCostPathRasterRaster",
-      "operation": "LeastCostPathRasterRaster",
+      "name": "FocalStatisticsSum",
+      "operation": "FocalStatisticsSum",
       "outputs": [
         {
           "DType": [
@@ -800,14 +1085,43 @@
     {
       "inputs": [
         {
-          "DType": "VectorRegionA"
-        },
+          "DType": "PointA"
+        }
+      ],
+      "name": "MergeExistencePoints",
+      "operation": "MergeExistencePoints",
+      "outputs": [
+        {
+          "DType": [
+            "PointA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
         {
           "DType": "RasterA"
         }
       ],
-      "name": "ZonalStatisticsMedian",
-      "operation": "ZonalStatisticsMedian",
+      "name": "RasterToContour",
+      "operation": "RasterToContour",
+      "outputs": [
+        {
+          "DType": [
+            "VectorRegionA"
+          ]
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "DType": "VectorRegionA"
+        }
+      ],
+      "name": "MergeExistenceRegions",
+      "operation": "MergeExistenceRegions",
       "outputs": [
         {
           "DType": [
@@ -854,110 +1168,6 @@
     {
       "inputs": [
         {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "SpatialJoinMeanRegion",
-      "operation": "SpatialJoinMeanRegion",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "LineA"
-        },
-        {
-          "DType": "RasterA"
-        },
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "LeastCostPathLineRaster",
-      "operation": "LeastCostPathLineRaster",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "LineA"
-        },
-        {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "LeastCostPathLineRegion",
-      "operation": "LeastCostPathLineRegion",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "PointA"
-        },
-        {
-          "DType": "PointA"
-        },
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "LeastCostPathPointPoint",
-      "operation": "LeastCostPathPointPoint",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "LineA"
-        },
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "SpatialJoinMeanLine",
-      "operation": "SpatialJoinMeanLine",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
           "DType": "RasterA"
         },
         {
@@ -969,114 +1179,6 @@
       ],
       "name": "LeastCostPathRasterLine",
       "operation": "LeastCostPathRasterLine",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "VectorRegionA"
-        },
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "LeastCostPathRegionRegion",
-      "operation": "LeastCostPathRegionRegion",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "PointA"
-        },
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "SpatialJoinSumPoint",
-      "operation": "SpatialJoinSumPoint",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "LineA"
-        }
-      ],
-      "name": "ObjectLineToExistenceRaster",
-      "operation": "ObjectLineToExistenceRaster",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "PointA"
-        },
-        {
-          "DType": "VectorRegionA"
-        }
-      ],
-      "name": "SpatialJoinMeanPoint",
-      "operation": "SpatialJoinMeanPoint",
-      "outputs": [
-        {
-          "DType": [
-            "VectorRegionA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "FocalStatisticsMean",
-      "operation": "FocalStatisticsMean",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "PointA"
-        }
-      ],
-      "name": "Kriging",
-      "operation": "Kriging",
       "outputs": [
         {
           "DType": [
@@ -1107,81 +1209,11 @@
     {
       "inputs": [
         {
-          "DType": "PointA"
-        }
-      ],
-      "name": "MergeExistencePoints",
-      "operation": "MergeExistencePoints",
-      "outputs": [
-        {
-          "DType": [
-            "PointA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "FocalStatisticsSum",
-      "operation": "FocalStatisticsSum",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "ObjectVector"
-        }
-      ],
-      "name": "EuclideanDistanceVector",
-      "operation": "EuclideanDistanceVector",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
           "DType": "VectorRegionA"
-        },
-        {
-          "DType": "RasterA"
-        },
-        {
-          "DType": "RasterA"
         }
       ],
-      "name": "LeastCostPathRegionRaster",
-      "operation": "LeastCostPathRegionRaster",
-      "outputs": [
-        {
-          "DType": [
-            "RasterA"
-          ]
-        }
-      ]
-    },
-    {
-      "inputs": [
-        {
-          "DType": "RasterA"
-        }
-      ],
-      "name": "FocalStatisticsVariety",
-      "operation": "FocalStatisticsVariety",
+      "name": "VectorCoverageToFieldRaster",
+      "operation": "VectorCoverageToFieldRaster",
       "outputs": [
         {
           "DType": [
