@@ -358,7 +358,6 @@
       "outputs": [
         {
           "DType": [
-            "OrdinalA",
             "Contour"
           ]
         }
