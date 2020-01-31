@@ -1,13 +1,13 @@
 # GIS workflow generation
 
-1. Paste `APE-0.9.1.jar` in this directory.
-2. Run `run.sh`.
-3. It will create workflows (with figures) in separate folders for all questions.
+1. Run `run.sh`.
+2. It will create workflows (with figures) in separate folders for all questions.
 
 To update the tool descriptions and taxonomy, replace the `GISTaxonomy.rdf`, `GISTaxonomy_fl.rdf`, `ToolDescription_ct.json`, and `ToolDescription_ct_fl.json` files with newly generated ones.
 
 Here's a short explanation of what each file/directory is here for:
 
+- `APE-0.9.1.jar`: APE jar. See [its repository](https://github.com/sanctuuary/APE)
 - `run.sh`: Bash script for easily running all synthesis.
 - `clean.sh` Bash script for easily removing all output produced by APE.
 - `evaluation/evaluation.csv`: A table with synthesized workflows used in the paper, and evaluations of them using our classification scheme.
