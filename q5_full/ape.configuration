@@ -15,15 +15,15 @@
   "number_of_generated_graphs": "20",
   "inputs": [
     {
-      "DType": "IntervalAPointMeasures"
+      "DType": ["IntervalAPointMeasures"]
     },
     {
-      "DType": "LatticeVectorA"
+      "DType": ["LatticeVectorA"]
     }
   ],
   "outputs": [
     {
-      "DType": "IntervalALatticeVectorA"
+      "DType": ["IntervalALatticeVectorA"]
     }
   ],
   "debug_mode": "true",
