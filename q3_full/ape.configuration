@@ -15,15 +15,15 @@
   "number_of_generated_graphs": "20",
   "inputs": [
     {
-      "DType": "CoverageNominalA"
+      "DType": ["CoverageNominalA"]
     },
     {
-      "DType": "LatticeVectorA"
+      "DType": ["LatticeVectorA"]
     }
   ],
   "outputs": [
     {
-      "DType": "LatticeRatioAVectorA"
+      "DType": ["LatticeRatioAVectorA"]
     }
   ],
   "debug_mode": "true",
